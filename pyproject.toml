@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "git-practice"
+version = "0.1.0"
+description = ""
+authors = ["dhiraj suvarna <dhiraj.suvarna@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.37.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
